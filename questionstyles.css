@@ -1,6 +1,6 @@
 body{
     background-image: url(https://www.thelancet.com/cms/attachment/d6b576ed-eed4-405c-a874-ecef06c1f058/fx1_lrg.jpg);
-   /* background-size: cover;*/
+   background-size: contain;
     display:flex;
     background-repeat: no-repeat;
 }
