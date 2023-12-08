@@ -2,6 +2,7 @@ body{
     background-image: url(https://www.thelancet.com/cms/attachment/d6b576ed-eed4-405c-a874-ecef06c1f058/fx1_lrg.jpg);
     background-size: cover;
     display:flex;
+    background-repeat: no-repeat;
 }
 .main{
     width: 70%;
@@ -15,7 +16,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 justify-content: space-evenly;
-background-repeat: no-repeat;
+
 }
 
 #image{
