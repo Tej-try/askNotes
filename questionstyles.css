@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://www.thelancet.com/cms/attachment/d6b576ed-eed4-405c-a874-ecef06c1f058/fx1_lrg.jpg);
+    background-size: cover;
+    display:flex;
+}
+.main{
+    width: 70%;
+    height:500px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+align-self: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-content: space-evenly;
+background-repeat: no-repeat;
+}
+
+#image{
+ height:200px;
+ width: 200px;
+ border-radius: 50%;
+ border: 2px solid black;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/440/213/original/question-mark-vector-icon.jpg);
+background-size: cover;
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+#Question{
+    color: whitesmoke;
+    align-self: center;
+
+}
+#lastbott{
+    display: flex;
+    justify-content: space-evenly;
+}
+#Question{
+    font-size: xx-large;
+    font-family:sans-serif;
+}
+.bott{
+    background-color: black;
+    color: whitesmoke;
+    border:2px solid whitesmoke;
+    width:100px;
+    height:40px;
+    border-radius: 30px;
+    text-decoration:none;
+
+}
+.Nobutt{
+    position: relative;
+}
+
+.Nobutt:active{
+    bottom:100px;    
+}
+
+.Nobutt:hover{
+    right:100px;
+}
+
